@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:background="@drawable/tic"
+    tools:context="com.example.lucky.tictactoe1.Main3Activity">
+
+    <TextView
+        android:text="Enter your details"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="72dp"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Player 1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:hint="Enter Player 2" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/ic_media_play"
+        android:layout_marginLeft="170dp"
+        android:id="@+id/imageButton2" />
+</LinearLayout>
